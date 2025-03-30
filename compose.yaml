@@ -1,0 +1,11 @@
+services:
+  server:
+    build: .
+    restart: always
+    env_file:
+      - .env
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app

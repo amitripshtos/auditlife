@@ -7,7 +7,7 @@ AuditLife is a personal backend system designed to help you capture, process, an
 In a world full of information and interactions, it's easy to lose track of important details, insights gained from conversations, or commitments made. AuditLife aims to solve this by providing a seamless way to:
 
 * **Capture Fleeting Thoughts:** Quickly record voice notes or send text messages via Telegram.
-* **Process Information:** Automatically transcribe audio, translate content to English, extract key facts (especially about people and relationships), and generate concise summaries using AI.
+* **Process Information:** Automatically transcribe audio, translate content to English, extract key facts (especially about people and relationships), and generate concise summaries using AI. Summarize data for AI to consume later as a knowledge graph.
 * **Organize Knowledge:** Store extracted facts in a structured Notion database and append summaries to relevant Notion pages, building a personal knowledge base over time.
 * **Reduce Manual Effort:** Automate the transcription, analysis, and documentation process, saving time and ensuring valuable information isn't lost.
 
@@ -29,7 +29,7 @@ In a world full of information and interactions, it's easy to lose track of impo
 
 ## Prerequisites
 
-* **Python:** Version 3.9 or higher.
+* **Python:** Version 3.12 or higher.
 * **pip:** Python package installer (usually included with Python).
 * **Git:** (Optional) For cloning the repository.
 * **API Keys & IDs:**
